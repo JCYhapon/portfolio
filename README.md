@@ -2,4 +2,4 @@
 
 ### Nothing to show yet.
 
-### Will be my next project and will give time to finished and provide all the needs in my applications
+### Will start after the graduation. For now look on my old portfolio. 
