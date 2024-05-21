@@ -2,9 +2,9 @@ import React from "react";
 
 const Header = (props) => {
   return (
-    <div>
+    <section>
       <span>Hello my name is {props.name}</span>
-    </div>
+    </section>
   );
 };
 
