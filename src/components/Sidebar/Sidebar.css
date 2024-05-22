@@ -1,0 +1,11 @@
+#resume-btn {
+  border-radius: 8px;
+  box-shadow: 0px 4px rgba(7, 122, 26, 0.747);
+  border: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+#resume-btn:active {
+  box-shadow: none;
+  transform: translateY(4px);
+}
