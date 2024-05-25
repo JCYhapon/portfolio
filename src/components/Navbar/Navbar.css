@@ -1,0 +1,19 @@
+#navbar {
+  display: flex;
+  gap: 80px;
+  padding-left: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+#navbar li {
+  cursor: pointer;
+  padding-bottom: 8px;
+}
+
+#navbar li.active {
+  border-bottom: 3px solid #64dd50;
+}
