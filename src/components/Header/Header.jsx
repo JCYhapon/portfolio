@@ -5,7 +5,9 @@ const Header = (props) => {
   return (
     <header>
       <div className="flex justify-between items-center">
-        <h1>LOGO</h1>
+        <h1 className="text-[40px] font-bold">
+          jcy<span className="text-[#64DD50]">.</span>
+        </h1>
         <div>
           <button
             className="flex align-items-center items-center justify-center gap-1"
