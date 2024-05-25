@@ -32,7 +32,7 @@ const Main = () => {
         <Header />
       </div>
 
-      <div className="mt-[5rem] flex w-full h-[75vh] ">
+      <div className="mt-[4rem] flex w-full h-[75vh] ">
         <div className="w-[20%]">
           <Sidebar />
         </div>
