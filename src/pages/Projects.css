@@ -14,3 +14,33 @@
   box-shadow: none;
   transform: translateY(4px);
 }
+
+#viewCode {
+  font-size: 15px;
+  background-color: #efeee5;
+  color: #1b2127;
+  border-radius: 8px;
+  box-shadow: 0px 4px rgba(163, 194, 168, 0.747);
+  border: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+#viewCode:active {
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+#viewSite {
+  font-size: 15px;
+  background-color: #64dd50;
+  color: #1b2127;
+  border-radius: 8px;
+  box-shadow: 0px 4px rgba(7, 122, 26, 0.747);
+  border: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+#viewSite:active {
+  box-shadow: none;
+  transform: translateY(4px);
+}
