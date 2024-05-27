@@ -4,4 +4,4 @@
 
 ### Will start after the graduation. For now look on my old portfolio. 
 
-### jcyhapon.guthub.io
+### jcyhapon.github.io
