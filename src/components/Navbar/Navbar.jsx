@@ -11,7 +11,7 @@ const Navbar = ({ navbar, setSelectedSection }) => {
 
   return (
     <nav className="w-full bg-[#0D1117] h-[5rem] rounded-t-md overflow-hidden">
-      <ul id="navbar">
+      <ul id="navbar" className="flex lg:gap-[80px] lg:pl-[50px] gap-8 pl-4">
         {navbar.map((item) => (
           <li
             key={item}
