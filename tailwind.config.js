@@ -4,12 +4,12 @@ export default {
   theme: {
     extend: {
       screens: {
-        xs: "360px", // Extra small screens (e.g., small mobile phones)
+        "2xl": "1920px", // Extra extra large screens (e.g., large desktop monitors)
+        xl: "1680px", // Extra large screens
+        lg: "1440px", // Large screens (e.g., desktop monitors)
+        md: "1024px", // Medium screens (e.g., tablets)
         sm: "640px", // Small screens (e.g., mobile phones)
-        md: "768px", // Medium screens (e.g., tablets)
-        lg: "1024px", // Large screens (e.g., laptops)
-        xl: "1280px", // Extra large screens (e.g., desktops)
-        "2xl": "1536px", // 2XL screens
+        xs: "360px", // Extra small screens (e.g., small mobile phones)
       },
     },
   },
