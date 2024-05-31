@@ -25,27 +25,33 @@ const Projects = () => {
         </button>
       </div>
 
-      <div className="xl:mt-6 flex xl:flex-row lg:flex-row xs:flex-col xs:gap-[3rem] xl:justify-between">
+      <div className="xl:mt-6 flex xl:flex-row lg:flex-row xs:flex-col xs:gap-[3rem] lg:gap-6 xl:justify-between">
         {/* PROJECT 1 */}
         <div className="xl:w-[400px] flex flex-col ">
-          <img src={SbaojtPortal} alt="" className="border h-[200px] rounded" />
-          <h2 className="text-[20px] font-bold mt-3" id="title">
-            SBA-OJT Portal
-          </h2>
-          <p className="details mt-2 text-[#babec4] ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <div className="flex gap-4 mt-3">
-            <span className="rounded-full  py-[2px] px-[15px]  border ">
-              Laravel
-            </span>
-            <span className="rounded-full  py-[2px] px-[15px]  border">
-              TailwindCSS
-            </span>
-            <span className="rounded-full  py-[2px] px-[15px]  border">
-              MySQL
-            </span>
+          <img
+            src={SbaojtPortal}
+            alt=""
+            className="border xl:h-[200px] lg:h-[200px] md:h-[400px] rounded"
+          />
+          <div className="">
+            <h2 className="text-[20px] font-bold mt-3" id="title">
+              SBA-OJT Portal
+            </h2>
+            <p className="details mt-2 text-[#babec4] ">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div className="flex gap-4 mt-3">
+              <span className="rounded-full  py-[2px] px-[15px]  border ">
+                Laravel
+              </span>
+              <span className="rounded-full  py-[2px] px-[15px]  border">
+                TailwindCSS
+              </span>
+              <span className="rounded-full  py-[2px] px-[15px]  border">
+                MySQL
+              </span>
+            </div>
           </div>
           <div className="flex gap-6 mt-3">
             <button id="viewSite" className="py-[6px] px-[20px] font-semibold">
@@ -62,7 +68,7 @@ const Projects = () => {
           <img
             src={KapampanganHistory}
             alt="Kapampangan History"
-            className="border w-auto h-[200px] rounded"
+            className="border w-auto xl:h-[200px] lg:h-[200px] md:h-[400px] rounded"
           />
           <h2 className="text-[20px] font-bold mt-3" id="title">
             Kapampangan History
@@ -94,7 +100,11 @@ const Projects = () => {
 
         {/* PROJECT 3 */}
         <div className="xl:w-[400px] flex flex-col">
-          <img src="" alt="" className="border w-auto h-[200px] rounded" />
+          <img
+            src={KapampanganHistory}
+            alt=""
+            className="border w-auto xl:h-[200px] lg:h-[200px] md:h-[400px] rounded"
+          />
           <h2 className="text-[20px] font-bold mt-3" id="title">
             Event Tracker
           </h2>
@@ -103,11 +113,8 @@ const Projects = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <div className="flex xl:gap-2 lg:gap-1 xs:gap-2 mt-3 flex-wrap">
-            <span className="rounded-full  py-[2px] px-[15px] lg:px-[12px]  border ">
-              HTML
-            </span>
             <span className="rounded-full  py-[2px] px-[15px] lg:px-[12px]  border">
-              CSS
+              HTML/CSS
             </span>
             <span className="rounded-full  py-[2px] px-[15px] lg:px-[12px] border">
               JavaScript
