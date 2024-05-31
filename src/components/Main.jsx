@@ -26,7 +26,7 @@ const Main = () => {
   };
 
   return (
-    <section className="min-h-screen bg-[#1B2127] lg:py-6 xs:py-4 lg:px-12 xs:px-4 xl:px-12 md:px-16 text-[#efeee5]">
+    <section className="min-h-screen bg-[#1B2127] lg:py-6 xs:py-4 lg:px-8 xs:px-4 xl:px-12 md:px-16 text-[#efeee5]">
       {/* HEADER */}
       <div>
         <Header />
