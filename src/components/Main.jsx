@@ -26,22 +26,22 @@ const Main = () => {
   };
 
   return (
-    <section className="min-h-screen bg-[#1B2127] py-6 px-12 text-[#efeee5]">
+    <section className="min-h-screen bg-[#1B2127] lg:py-6 py-4 lg:px-12 px-4 text-[#efeee5]">
       {/* HEADER */}
       <div>
         <Header />
       </div>
 
-      <div className="mt-[4rem] flex w-full h-[75vh] ">
-        <div className="w-[20%]">
+      <div className="mt-[4rem] flex w-full lg:h-[75vh] xs:flex-col lg:flex-row gap-[2rem]">
+        <div className="lg:w-[20%] mx-auto">
           <Sidebar />
         </div>
-        <div className="w-[80%] border border-[#6E7681] rounded-md">
+        <div className="lg:w-[80%] border border-[#6E7681] rounded-md">
           <Navbar
             navbar={["Overview", "Skills", "Projects", "Contact"]}
             setSelectedSection={setSelectedSection}
           />
-          <div className="p-4">{renderSection()}</div>
+          <div className="p-2">{renderSection()}</div>
         </div>
       </div>
     </section>
