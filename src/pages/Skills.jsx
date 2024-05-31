@@ -18,7 +18,7 @@ const Skills = () => {
   return (
     <section className="xl:px-[35px] lg:px-[35px] px-[10px]">
       <div className=" mt-[1rem]">
-        <h1 className="xl:text-[55px] lg:text-[40px] text-[35px]">
+        <h1 className="xl:text-[55px] lg:text-[45px] xs:text-[25px] text-[35px]">
           Skills and Technologies
         </h1>
         <p className="xl:text-[20px] lg:text-[18px]  mx-auto font-light text-gray-300">
@@ -26,7 +26,7 @@ const Skills = () => {
           development.
         </p>
       </div>
-      <div className="skills xl:flex grid xs:grid-cols-4 lg:grid-cols-6 xl:gap-[5rem] lg:gap-[3rem] gap-8 flex-wrap xl:w-[80%] mx-auto mt-[3rem]">
+      <div className="skills xl:flex grid xs:grid-cols-4 lg:grid-cols-6 xl:gap-[5rem] lg:gap-[3rem] gap-8 flex-wrap xl:w-[80%] mx-auto mt-[3rem] xl:mt-[3rem] lg:mt-[4rem]">
         <div className="flex flex-col items-center gap-2  hover:underline">
           <img
             src={Javascript}

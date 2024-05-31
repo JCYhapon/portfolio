@@ -26,13 +26,13 @@ const Main = () => {
   };
 
   return (
-    <section className="min-h-screen bg-[#1B2127] lg:py-6 py-4 lg:px-12 px-4 text-[#efeee5]">
+    <section className="min-h-screen bg-[#1B2127] lg:py-6 xs:py-4 lg:px-12 xs:px-4 xl:px-12 md:px-16 text-[#efeee5]">
       {/* HEADER */}
       <div>
         <Header />
       </div>
 
-      <div className="mt-[4rem] flex w-full lg:h-[75vh] xs:flex-col lg:flex-row gap-[2rem]">
+      <div className="xl:mt-[4rem] lg:mt-[2rem] md:mt-[4rem] sm:mt-[4rem] xs:mt-[4rem] flex w-full xl:h-[43rem] lg:h-[42rem] xs:flex-col lg:flex-row gap-[2rem]">
         <div className="lg:w-[20%] mx-auto">
           <Sidebar />
         </div>
