@@ -14,8 +14,8 @@ const Sidebar = () => {
         />
       </div>
       <div className="details">
-        <div className="lg:mb-[3rem] mb-10">
-          <h1 className="text-[35px] font-bold text-[#efeee5]">
+        <div className="2xl:mb-[3rem] xl:mb-8 mb-10">
+          <h1 className="2xl:text-[35px] xl:text-[30px] font-bold text-[#efeee5]">
             John Carlo Yhapon
           </h1>
           <span className="text-[18px] font-light text-gray-500">
@@ -23,7 +23,7 @@ const Sidebar = () => {
           </span>
         </div>
 
-        <div className="flex flex-col gap-3 lg:mb-[5rem] mb-[2rem]">
+        <div className="flex flex-col gap-3 2xl:mb-[5rem] xl:mb-[3rem] mb-[2rem]">
           <div className="flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ const Sidebar = () => {
         </div>
         <div className="flex items-center gap-12 lg:mb-0 mb-4">
           <div
-            className="flex align-items-center items-center bg-[#64DD50] text-black p-1 w-[8rem] justify-center gap-1 rounded-lg font-semibold"
+            className="flex align-items-center items-center bg-[#64DD50] text-black p-1 2xl:text-[15px] xl:text-[13px] 2xl:w-[150px] xl:w-[130px] justify-center gap-1 rounded-lg font-semibold"
             id="resume-btn"
           >
             Download Resume
