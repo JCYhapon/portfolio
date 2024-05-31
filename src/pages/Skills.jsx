@@ -26,12 +26,12 @@ const Skills = () => {
           development.
         </p>
       </div>
-      <div className="skills xl:flex grid xs:grid-cols-4 lg:grid-cols-6 xl:gap-[5rem] lg:gap-[3rem] gap-8 flex-wrap xl:w-[80%] mx-auto mt-[3rem] xl:mt-[3rem] lg:mt-[4rem]">
+      <div className="skills xl:flex grid xs:grid-cols-4 xl:grid-cols-6 lg:grid-cols-6  xl:gap-[4.5rem] lg:gap-[3rem]  gap-8 flex-wrap xl:w-[80%]  mx-auto mt-[3rem] xl:mt-[3rem] lg:mt-[4rem]">
         <div className="flex flex-col items-center gap-2  hover:underline">
           <img
             src={Javascript}
             alt="Javascript logo"
-            className="xl:w-[100px] lg:w-[80px] xs:w-[50px]"
+            className="xl:w-[90px] lg:w-[80px] xs:w-[50px]"
           />
           <span className="xl:text-[18px] lg:text-[16px] xs:text-[13px]">
             JavaScript
@@ -42,7 +42,7 @@ const Skills = () => {
           <img
             src={Reactjs}
             alt="React logo"
-            className="xl:w-[100px] lg:w-[80px] xs:w-[50px]"
+            className="xl:w-[90px] lg:w-[80px] xs:w-[50px]"
           />
           <span className="xl:text-[18px] lg:text-[16px] xs:text-[13px]">
             React.js
@@ -53,7 +53,7 @@ const Skills = () => {
           <img
             src={Angular}
             alt="Angular Logo"
-            className="xl:w-[100px] lg:w-[80px] xs:w-[50px]"
+            className="xl:w-[90px] lg:w-[80px] xs:w-[50px]"
           />
           <span className="xl:text-[18px] lg:text-[16px] xs:text-[13px]">
             Angular
@@ -64,7 +64,7 @@ const Skills = () => {
           <img
             src={PHP}
             alt="PHP logo"
-            className="xl:w-[100px] lg:w-[80px] xs:w-[50px]"
+            className="xl:w-[90px] lg:w-[80px] xs:w-[50px]"
           />
           <span className="xl:text-[18px] lg:text-[16px] xs:text-[13px]">
             PHP
@@ -75,7 +75,7 @@ const Skills = () => {
           <img
             src={Laravel}
             alt="Laravel logo"
-            className="xl:w-[100px] lg:w-[80px] xs:w-[50px]"
+            className="xl:w-[90px] lg:w-[80px] xs:w-[50px]"
           />
           <span className="xl:text-[18px] lg:text-[16px]  xs:text-[13px]">
             Laravel
@@ -86,7 +86,7 @@ const Skills = () => {
           <img
             src={Tailwindcss}
             alt="Tailwindcss logo"
-            className="xl:w-[100px]  lg:w-[80px] xs:w-[50px]"
+            className="xl:w-[90px]  lg:w-[80px] xs:w-[50px]"
           />
           <span className="xl:text-[18px] lg:text-[16px] xs:text-[13px]">
             TailwindCSS
@@ -97,7 +97,7 @@ const Skills = () => {
           <img
             src={Bootstrap}
             alt="Bootstrap logo"
-            className="xl:w-[100px] lg:w-[80px] xs:w-[50px]"
+            className="xl:w-[90px] lg:w-[80px] xs:w-[50px]"
           />
           <span className="xl:text-[18px] lg:text-[16px] xs:text-[13px]">
             Bootstrap
@@ -108,7 +108,7 @@ const Skills = () => {
           <img
             src={Wordpress}
             alt="Wordpress logo"
-            className="xl:w-[100px] lg:w-[80px] xs:w-[50px]"
+            className="xl:w-[90px] lg:w-[80px] xs:w-[50px]"
           />
           <span className="xl:text-[18px] lg:text-[16px] xs:text-[13px]">
             WordPress
@@ -119,7 +119,7 @@ const Skills = () => {
           <img
             src={Mysql}
             alt="Mysql logo"
-            className="xl:w-[100px] lg:w-[80px] xs:w-[50px]"
+            className="xl:w-[90px] lg:w-[80px] xs:w-[50px]"
           />
           <span className="xl:text-[18px] lg:text-[16px] xs:text-[13px]">
             MySQL
@@ -130,7 +130,7 @@ const Skills = () => {
           <img
             src={Firebase}
             alt="Firebase logo"
-            className="xl:w-[100px] lg:w-[80px] xs:w-[50px]"
+            className="xl:w-[90px] lg:w-[80px] xs:w-[50px]"
           />
           <span className="xl:text-[18px] lg:text-[16px] xs:text-[13px]">
             Firebase
@@ -141,7 +141,7 @@ const Skills = () => {
           <img
             src={Git}
             alt="Git logo"
-            className="xl:w-[100px] lg:w-[80px] xs:w-[50px]"
+            className="xl:w-[90px] lg:w-[80px] xs:w-[50px]"
           />
           <span className="xl:text-[18px] lg:text-[16px] xs:text-[13px]">
             Git
@@ -151,7 +151,7 @@ const Skills = () => {
           <img
             src={Github}
             alt="Github logo"
-            className="xl:w-[100px] lg:w-[80px] xs:w-[50px]"
+            className="xl:w-[90px] lg:w-[80px] xs:w-[50px]"
           />
           <span className="xl:text-[18px] lg:text-[16px] xs:text-[13px]">
             GitHub
