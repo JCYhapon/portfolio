@@ -14,8 +14,8 @@ const Sidebar = () => {
         />
       </div>
       <div className="details">
-        <div className="2xl:mb-[3rem] xl:mb-8 mb-10">
-          <h1 className="2xl:text-[35px] xl:text-[30px] font-bold text-[#efeee5]">
+        <div className="xl:mb-[3rem] lg:mb-8 mb-10">
+          <h1 className="xl:text-[35px] lg:text-[30px] font-bold text-[#efeee5]">
             John Carlo Yhapon
           </h1>
           <span className="text-[18px] font-light text-gray-500">
@@ -23,7 +23,7 @@ const Sidebar = () => {
           </span>
         </div>
 
-        <div className="flex flex-col gap-3 2xl:mb-[5rem] xl:mb-[3rem] mb-[2rem]">
+        <div className="flex flex-col gap-3 xl:mb-[5rem] lg:mb-[3rem] mb-[2rem]">
           <div className="flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
