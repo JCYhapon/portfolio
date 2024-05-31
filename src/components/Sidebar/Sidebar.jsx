@@ -14,7 +14,7 @@ const Sidebar = () => {
         />
       </div>
       <div className="details">
-        <div className="mb-[3rem]">
+        <div className="lg:mb-[3rem] mb-10">
           <h1 className="text-[35px] font-bold text-[#efeee5]">
             John Carlo Yhapon
           </h1>
@@ -23,7 +23,7 @@ const Sidebar = () => {
           </span>
         </div>
 
-        <div className="flex flex-col gap-3 mb-[5rem]">
+        <div className="flex flex-col gap-3 lg:mb-[5rem] mb-[2rem]">
           <div className="flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ const Sidebar = () => {
             <span>jcyhapon.github.io</span>
           </div>
         </div>
-        <div className="flex items-center gap-12">
+        <div className="flex items-center gap-12 lg:mb-0 mb-4">
           <div
             className="flex align-items-center items-center bg-[#64DD50] text-black p-1 w-[8rem] justify-center gap-1 rounded-lg font-semibold"
             id="resume-btn"
