@@ -4,7 +4,7 @@ import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
-    <div>
+    <div className="flex xl:flex-col lg:flex-col md:flex-row xs:flex-col align-items-center items-center xl:gap-0 lg:gap-0 xs:gap-0 md:gap-[5rem]">
       <div>
         <img
           src={profile}
@@ -12,17 +12,16 @@ const Sidebar = () => {
           className="rounded-full border border-gray-500 flex justify-center align-items-center items-center"
           width={300}
         />
-      </div>
-      <div className="details flex xl:flex-col lg:flex-col xs:flex-col md:flex-row md:gap-[6rem] xl:gap-0 lg:gap-0 xs:gap-0">
         <div className="xl:mb-[3rem] lg:mb-8 mb-10">
-          <h1 className="xl:text-[35px] lg:text-[30px] md:text-[35px] text-[35px] font-bold text-[#efeee5]">
+          <h1 className="xl:text-[32px] lg:text-[30px] md:text-[35px] text-[35px] font-bold text-[#efeee5]">
             John Carlo Yhapon
           </h1>
           <span className="text-[18px] font-light text-gray-500">
             Frontend Developer
           </span>
         </div>
-
+      </div>
+      <div className="details flex xl:flex-col lg:flex-col xs:flex-col md:flex-row md:gap-[6rem] xl:gap-0 lg:gap-0 xs:gap-0 align-items-center">
         <div>
           <div className="flex flex-col gap-3 xl:mb-[5rem] lg:mb-[3rem] mb-[2rem]">
             <div className="flex gap-3">
@@ -69,7 +68,7 @@ const Sidebar = () => {
           </div>
           <div className="flex items-center gap-12 lg:mb-0 mb-4">
             <div
-              className="flex align-items-center items-center bg-[#64DD50] text-black p-1 2xl:text-[15px] xl:text-[13px] 2xl:w-[150px] xl:w-[130px] justify-center gap-1 rounded-lg font-semibold"
+              className="flex align-items-center items-center bg-[#64DD50] text-black p-1 xl:text-[15px] lg:text-[13px] xl:w-[150px] lg:w-[130px] justify-center gap-1 rounded-lg font-semibold"
               id="resume-btn"
             >
               Download Resume
