@@ -62,7 +62,7 @@ const Projects = () => {
                 View live site
               </button>
             </a>
-            <a href="">
+            <a href="https://github.com/JCYhapon/sba-ojt-portal">
               <button
                 id="viewCode"
                 className="py-[6px] px-[20px] font-semibold"
@@ -99,7 +99,7 @@ const Projects = () => {
             </span>
           </div>
           <div className="flex gap-6 mt-3">
-            <a href="">
+            <a href="https://kapampangan-history.vercel.app/home">
               <button
                 id="viewSite"
                 className="py-[6px] px-[20px] font-semibold"
@@ -107,7 +107,7 @@ const Projects = () => {
                 View live site
               </button>
             </a>
-            <a href="">
+            <a href="https://github.com/JCYhapon/kapampangan-history">
               <button
                 id="viewCode"
                 className="py-[6px] px-[20px] font-semibold"
