@@ -62,9 +62,14 @@ const Projects = () => {
                 View live site
               </button>
             </a>
-            <button id="viewCode" className="py-[6px] px-[20px] font-semibold">
-              View Code
-            </button>
+            <a href="">
+              <button
+                id="viewCode"
+                className="py-[6px] px-[20px] font-semibold"
+              >
+                View Code
+              </button>
+            </a>
           </div>
         </div>
 
@@ -94,12 +99,22 @@ const Projects = () => {
             </span>
           </div>
           <div className="flex gap-6 mt-3">
-            <button id="viewSite" className="py-[6px] px-[20px] font-semibold">
-              View live site
-            </button>
-            <button id="viewCode" className="py-[6px] px-[20px] font-semibold">
-              View Code
-            </button>
+            <a href="">
+              <button
+                id="viewSite"
+                className="py-[6px] px-[20px] font-semibold"
+              >
+                View live site
+              </button>
+            </a>
+            <a href="">
+              <button
+                id="viewCode"
+                className="py-[6px] px-[20px] font-semibold"
+              >
+                View Code
+              </button>
+            </a>
           </div>
         </div>
 
@@ -129,12 +144,22 @@ const Projects = () => {
             </span>
           </div>
           <div className="flex gap-6 mt-3">
-            <button id="viewSite" className="py-[6px] px-[20px] font-semibold">
-              View live site
-            </button>
-            <button id="viewCode" className="py-[6px] px-[20px] font-semibold">
-              View Code
-            </button>
+            <a href="">
+              <button
+                id="viewSite"
+                className="py-[6px] px-[20px] font-semibold"
+              >
+                View live site
+              </button>
+            </a>
+            <a href="">
+              <button
+                id="viewCode"
+                className="py-[6px] px-[20px] font-semibold"
+              >
+                View Code
+              </button>
+            </a>
           </div>
         </div>
       </div>
