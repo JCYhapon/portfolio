@@ -10,13 +10,15 @@ const Header = (props) => {
           jcy<span className="text-[#64DD50]">.</span>
         </h1>
         <div>
-          <button
-            className="flex align-items-center items-center justify-center gap-1"
-            id="button"
-          >
-            <img src={GithubIcon} alt="Github Icon" />
-            <span className="font-semibold">GitHub</span>
-          </button>
+          <a href="https://github.com/JCYhapon">
+            <button
+              className="flex align-items-center items-center justify-center gap-1"
+              id="button"
+            >
+              <img src={GithubIcon} alt="Github Icon" />
+              <span className="font-semibold">GitHub</span>
+            </button>
+          </a>
         </div>
       </div>
     </header>
