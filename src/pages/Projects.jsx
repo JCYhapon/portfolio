@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import KapampanganHistory from "../assets/Projects/kapampangan-history.png";
 import SbaojtPortal from "../assets/Projects/sbaojt-portal.png";
+import DTracker from "../assets/Projects/d'tracker.png";
 
 const Projects = () => {
   return (
@@ -11,7 +12,7 @@ const Projects = () => {
           <h1 className="xl:text-[55px] lg:text-[45px] xs:text-[25px] text-[35px]">
             Featured Projects
           </h1>
-          <p className="xl:text-[20px] lg:text-[18px] mx-auto font-light text-gray-300">
+          <p className="xl:text-[20px] lg:text-[18px] mx-auto font-light text-gray-300 ">
             These are the projects I've crafted with the mentioned technologies,
             and I find joy in working with them.
           </p>
@@ -37,9 +38,9 @@ const Projects = () => {
             <h2 className="text-[20px] font-bold mt-3" id="title">
               SBA-OJT Portal
             </h2>
-            <p className="details mt-2 text-[#babec4] ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <p className="details mt-2 text-[#babec4] text-justify">
+              A website for SBA students to view internships, submit
+              requirements, and for coordinators to monitor student status.
             </p>
             <div className="flex gap-4 mt-3">
               <span className="rounded-full  py-[2px] px-[15px]  border ">
@@ -83,9 +84,9 @@ const Projects = () => {
           <h2 className="text-[20px] font-bold mt-3" id="title">
             Kapampangan History
           </h2>
-          <p className="details mt-2 text-[#babec4]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p className="details mt-2 text-[#babec4] text-justify">
+            A website featuring the historical journey, cultural heritage,
+            traditions, cuisine, and current events of the Kapampangans.
           </p>
           <div className="flex gap-4 mt-3">
             <span className="rounded-full  py-[2px] px-[15px]  border ">
@@ -121,16 +122,16 @@ const Projects = () => {
         {/* PROJECT 3 */}
         <div className="xl:w-[400px] flex flex-col">
           <img
-            src={KapampanganHistory}
+            src={DTracker}
             alt=""
             className="border w-auto xl:h-[200px] lg:h-[200px] md:h-[400px] rounded"
           />
           <h2 className="text-[20px] font-bold mt-3" id="title">
-            Event Tracker
+            D'Tracker
           </h2>
-          <p className="details mt-2 text-[#babec4]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p className="details mt-2 text-[#babec4] text-justify">
+            A website that helps you monitor daily tasks, including tracking
+            companions, departure times, and precise locations.
           </p>
           <div className="flex xl:gap-2 lg:gap-1 xs:gap-2 mt-3 flex-wrap">
             <span className="rounded-full  py-[2px] px-[15px] lg:px-[12px]  border">
