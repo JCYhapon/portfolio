@@ -4,7 +4,7 @@ import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
-    <div className="flex xl:flex-col lg:flex-col md:flex-row xs:flex-col align-items-center items-center xl:gap-0 lg:gap-0 xs:gap-0 md:gap-[5rem]">
+    <div className="flex xl:flex-col lg:flex-col md:flex-row xs:flex-col align-items-center md:items-center xl:items-start lg:items-start xl:gap-0 lg:gap-0 xs:gap-0 md:gap-[5rem]">
       <div>
         <img
           src={profile}
