@@ -1,13 +1,13 @@
 import React from "react";
 import "./Projects.css";
-import KapampanganHistory from "../assets/Projects/kapampangan-history.png";
-import SbaojtPortal from "../assets/Projects/sbaojt-portal.png";
-import DTracker from "../assets/Projects/d'tracker.png";
+import KapampanganHistory from "../assets/Projects/kapampangan-history.webp";
+import SbaojtPortal from "../assets/Projects/sbaojt-portal.webp";
+import DTracker from "../assets/Projects/d'tracker.webp";
 
 const Projects = () => {
   return (
     <section className="xl:px-[35px] lg:px-[35px] px-[10px]">
-      <div className="xl:flex lg:flex justify-between mt-[1rem]">
+      <div className="xl:flex lg:flex justify-between mt-[1rem]"> 
         <div className=" ">
           <h1 className="xl:text-[55px] lg:text-[45px] xs:text-[25px] text-[35px]">
             Featured Projects
