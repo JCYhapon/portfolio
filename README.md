@@ -1,9 +1,25 @@
-# Latest Portfolio
+# 🖥️ My Personal Portfolio
 
-### Nothing to show yet.
+### Welcome to my personal portfolio! This project showcases my skills, projects, and experience in web development. Built with React.js, my portfolio is designed to be sleek, responsive, and user-friendly.
 
-### Will start after the graduation. For now look on my old portfolio. 
+## 🌟 Features
 
-### jcyhapon.github.io
+### Responsive Design: Works seamlessly on any device.
 
-### Will finished this project before June
+### Interactive UI: Engaging user interface with smooth animations.
+
+### Project Showcase: Detailed project descriptions with live demos and source code links.
+
+### Contact Form: Easy way to get in touch with me.
+
+## 🛠️ Technologies Used
+
+### React.js: Frontend framework for building user interfaces.
+
+### Styled-Components: CSS-in-JS library for styling components.
+
+### Framer Motion: Library for animations.
+
+### EmailJS: Service for handling contact form submissions.
+
+### React Router: Declarative routing for React applications.
