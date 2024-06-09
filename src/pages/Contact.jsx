@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Contact.css";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -24,7 +25,7 @@ const Contact = () => {
 
   return (
     <section className="lg:px-[35px] xs:px-[10px]">
-      <div className=" mt-[1rem]">
+      <div className=" mt-[1rem] mb-[3rem]">
         <h1 className="xl:text-[55px] lg:text-[45px] xs:text-[25px] text-[35px]">
           Let's Work Together
         </h1>
@@ -34,12 +35,9 @@ const Contact = () => {
       </div>
       {/* EMAIL FORMAT */}
       <form onSubmit={handleSubmit}>
-        <div className="flex gap-4">
+        <div className="flex gap-4 xs:flex-col xs:gap-0 xl:flex-row lg:flex-row md:flex-row sm:flex-row lg:gap-4 md:gap-4 sm:gap-4 xl:gap-4 ">
           <div className="mb-4 w-full">
-            <label
-              htmlFor="name"
-              className="block text-sm font-medium text-gray-700"
-            >
+            <label htmlFor="name" className="block text-sm font-medium">
               Name
             </label>
             <input
@@ -53,10 +51,7 @@ const Contact = () => {
             />
           </div>
           <div className="mb-4 w-full">
-            <label
-              htmlFor="email"
-              className="block text-sm font-medium text-gray-700"
-            >
+            <label htmlFor="email" className="block text-sm font-medium ">
               Email
             </label>
             <input
@@ -72,10 +67,7 @@ const Contact = () => {
         </div>
 
         <div className="mb-4">
-          <label
-            htmlFor="subject"
-            className="block text-sm font-medium text-gray-700"
-          >
+          <label htmlFor="subject" className="block text-sm font-medium ">
             Subject
           </label>
           <input
@@ -89,10 +81,7 @@ const Contact = () => {
           />
         </div>
         <div className="mb-4">
-          <label
-            htmlFor="message"
-            className="block text-sm font-medium text-gray-700"
-          >
+          <label htmlFor="message" className="block text-sm font-medium ">
             Message
           </label>
           <textarea
@@ -105,10 +94,11 @@ const Contact = () => {
           />
         </div>
         <button
+          id="sendMessage"
           type="submit"
-          className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          className="py-[10px] px-[25px] font-semibold mt-6"
         >
-          Submit
+          Send Message
         </button>
       </form>
     </section>
