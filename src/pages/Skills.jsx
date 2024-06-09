@@ -26,7 +26,7 @@ const Skills = () => {
           development.
         </p>
       </div>
-      <div className="skills xl:flex grid xs:grid-cols-4 xl:grid-cols-6 lg:grid-cols-6  xl:gap-[4.5rem] lg:gap-[3rem]  gap-8 flex-wrap xl:w-[80%]  mx-auto mt-[3rem] xl:mt-[3rem] lg:mt-[4rem]">
+      <div className="skills grid xs:grid-cols-4 xl:grid-cols-6 lg:grid-cols-6  xl:gap-[4.5rem] lg:gap-[3rem]  gap-8 flex-wrap xl:w-[80%]  mx-auto mt-[3rem] xl:mt-[3rem] lg:mt-[4rem]">
         <div className="flex flex-col items-center gap-2  hover:underline">
           <img
             src={Javascript}
