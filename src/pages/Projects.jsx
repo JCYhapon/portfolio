@@ -7,7 +7,7 @@ import DTracker from "../assets/Projects/d'tracker.webp";
 const Projects = () => {
   return (
     <section className="xl:px-[35px] lg:px-[35px] px-[10px]">
-      <div className="xl:flex lg:flex justify-between mt-[1rem]"> 
+      <div className="xl:flex lg:flex justify-between mt-[1rem]">
         <div className=" ">
           <h1 className="xl:text-[55px] lg:text-[45px] xs:text-[25px] text-[35px]">
             Featured Projects
@@ -55,7 +55,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="flex gap-6 mt-3">
-            <a href="https://sbaojt.online/">
+            <a href="https://sbaojt.online/" target="_blank">
               <button
                 id="viewSite"
                 className="py-[6px] px-[20px] font-semibold"
@@ -63,7 +63,10 @@ const Projects = () => {
                 View live site
               </button>
             </a>
-            <a href="https://github.com/JCYhapon/sba-ojt-portal">
+            <a
+              href="https://github.com/JCYhapon/sba-ojt-portal"
+              target="_blank"
+            >
               <button
                 id="viewCode"
                 className="py-[6px] px-[20px] font-semibold"
@@ -100,7 +103,10 @@ const Projects = () => {
             </span>
           </div>
           <div className="flex gap-6 mt-3">
-            <a href="https://kapampangan-history.vercel.app/home">
+            <a
+              href="https://kapampangan-history.vercel.app/home"
+              target="_blank"
+            >
               <button
                 id="viewSite"
                 className="py-[6px] px-[20px] font-semibold"
@@ -108,7 +114,10 @@ const Projects = () => {
                 View live site
               </button>
             </a>
-            <a href="https://github.com/JCYhapon/kapampangan-history">
+            <a
+              href="https://github.com/JCYhapon/kapampangan-history"
+              target="_blank"
+            >
               <button
                 id="viewCode"
                 className="py-[6px] px-[20px] font-semibold"
@@ -145,7 +154,7 @@ const Projects = () => {
             </span>
           </div>
           <div className="flex gap-6 mt-3">
-            <a href="">
+            <a href="" target="_blank">
               <button
                 id="viewSite"
                 className="py-[6px] px-[20px] font-semibold"
@@ -153,7 +162,7 @@ const Projects = () => {
                 View live site
               </button>
             </a>
-            <a href="">
+            <a href="" target="_blank">
               <button
                 id="viewCode"
                 className="py-[6px] px-[20px] font-semibold"

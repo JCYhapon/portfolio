@@ -10,7 +10,7 @@ const Header = (props) => {
           jcy<span className="text-[#64DD50]">.</span>
         </h1>
         <div>
-          <a href="https://github.com/JCYhapon">
+          <a href="https://github.com/JCYhapon" target="_blank">
             <button
               className="flex align-items-center items-center justify-center gap-1"
               id="button"
