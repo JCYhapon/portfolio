@@ -12,3 +12,9 @@
   box-shadow: none;
   transform: translateY(4px);
 }
+
+textarea {
+  resize: none; /* Disable resizing */
+  width: 300px; /* Set a specific width */
+  height: 150px; /* Set a specific height */
+}
