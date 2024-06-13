@@ -34,7 +34,10 @@ const Contact = () => {
         </p>
       </div>
       {/* EMAIL FORMAT */}
-      <form onSubmit={handleSubmit}>
+      <form
+        onSubmit={handleSubmit}
+        className="xl:px-[4rem] lg:px[3rem] md:px-[2rem]"
+      >
         <div className="flex gap-4 xs:flex-col xs:gap-0 xl:flex-row lg:flex-row md:flex-row sm:flex-row lg:gap-4 md:gap-4 sm:gap-4 xl:gap-4 ">
           <div className="mb-4 w-full">
             <label htmlFor="name" className="block text-sm font-medium">
@@ -47,7 +50,7 @@ const Contact = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none  sm:text-sm text-gray-600"
             />
           </div>
           <div className="mb-4 w-full">
@@ -61,7 +64,7 @@ const Contact = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none  sm:text-sm text-gray-600"
             />
           </div>
         </div>
@@ -77,7 +80,7 @@ const Contact = () => {
             value={formData.subject}
             onChange={handleChange}
             required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none  sm:text-sm text-gray-600"
           />
         </div>
         <div className="mb-4">
@@ -90,13 +93,13 @@ const Contact = () => {
             value={formData.message}
             onChange={handleChange}
             required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none  sm:text-sm text-gray-600"
           />
         </div>
         <button
           id="sendMessage"
           type="submit"
-          className="py-[10px] px-[25px] font-semibold mt-6"
+          className="py-[10px] px-[25px] font-semibold mt-3"
         >
           Send Message
         </button>
