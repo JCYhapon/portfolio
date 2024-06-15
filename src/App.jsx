@@ -9,6 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Main />} />
+          <Route path="/home" element={<Main />} />
           <Route path="/all-projects" element={<AllProjects />} />
         </Routes>
       </BrowserRouter>
