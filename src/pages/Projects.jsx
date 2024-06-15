@@ -3,6 +3,7 @@ import "./Projects.css";
 import KapampanganHistory from "../assets/Projects/kapampangan-history.webp";
 import SbaojtPortal from "../assets/Projects/sbaojt-portal.webp";
 import DTracker from "../assets/Projects/d'tracker.webp";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -17,13 +18,14 @@ const Projects = () => {
             and I find joy in working with them.
           </p>
         </div>
-
-        <button
-          className="flex xl:my-0 xl:mb-0 xs:mb-[3rem] xs:my-6 h-[45px] items-center bg-[#64DD50] text-black p-1 w-[8rem] justify-center gap-1 rounded-lg font-semibold"
-          id="view-projects"
-        >
-          View All Projects
-        </button>
+        <Link to="/all-projects">
+          <button
+            className="flex xl:my-0 xl:mb-0 xs:mb-[3rem] xs:my-6 h-[45px] items-center bg-[#64DD50] text-black p-1 w-[8rem] justify-center gap-1 rounded-lg font-semibold"
+            id="view-projects"
+          >
+            View All Projects
+          </button>
+        </Link>
       </div>
 
       <div className="xl:mt-6 flex xl:flex-row lg:flex-row xs:flex-col xs:gap-[3rem] lg:gap-6 xl:justify-between">
