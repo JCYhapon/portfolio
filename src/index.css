@@ -11,3 +11,14 @@
 body {
   background-color: #1b2127;
 }
+
+/* Remove scrollbar buttons (arrows) in Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #64dd50 #1b2127;
+}
+
+/* Remove scrollbar buttons (arrows) in Edge and IE */
+* {
+  -ms-overflow-style: none;
+}
