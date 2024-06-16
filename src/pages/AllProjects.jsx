@@ -7,7 +7,18 @@ const AllProjects = () => {
     <div className="xl:px-[15rem] lg:px-[10rem] md:px-[8rem] sm:px-[5rem] xs:px-[2rem] py-[3rem] min-h-screen text-[#efeee5]">
       <section className="flex justify-between items-center">
         <Link to="/home">
-          <button className="hover:underline">Back to portfolio</button>
+          <div className="flex gap-2 hover:underline">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              style={{ fill: "rgba(100, 221, 80, 1)" }}
+            >
+              <path d="m4.431 12.822 13 9A1 1 0 0 0 19 21V3a1 1 0 0 0-1.569-.823l-13 9a1.003 1.003 0 0 0 0 1.645z" />
+            </svg>
+            <button className="">Back to portfolio</button>
+          </div>
         </Link>
         <h1 className="text-[40px] font-bold">
           jcy<span className="text-[#64DD50]">.</span>
