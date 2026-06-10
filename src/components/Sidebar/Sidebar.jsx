@@ -17,7 +17,7 @@ const Sidebar = () => {
             John Carlo Yhapon
           </h1>
           <span className="text-[18px] font-light text-gray-500">
-            Frontend Developer
+            Web Developer
           </span>
         </div>
       </div>
